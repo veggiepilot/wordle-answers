@@ -1,0 +1,23 @@
+.button {
+    height: 10.5rem;
+    line-height: 4.5rem;
+    padding: 0 2rem;
+}
+
+body {
+    margin: auto;
+    margin-top: 50px;
+    width: 60%;
+}
+
+.date{
+    text-align: center;
+}
+
+.wordle{
+    text-align: center;
+}
+
+.future-hint{
+    text-align: center;
+}

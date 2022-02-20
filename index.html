@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css" integrity="sha512-xiunq9hpKsIcz42zt0o2vCo34xV0j6Ny8hgEylN3XBglZDtTZ2nwnqF/Z/TTCc18sGdvCjbFInNd++6q3J0N6g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Wordle Answers</title>
+</head>
+<body>
+    <div class="date">
+        <h2 id="currentDate"></h2>
+    </div>
+    <div class="wordle">
+        <input class="button" type="submit" value="REVEAL WORDLE" id="wordle">
+        <strong><p id="wordle-answer"></p></strong>
+        <h6><strong>Hint: </strong><span id="today-hint"></span></h6>
+    </div>
+    <hr>
+    <div class="future-hint">
+        <input class="button" type="submit" value="TOMORROW'S HINT" id="tomorrow-hint">
+        <strong><p id="tomorrow-hint-reveal"></p></strong>
+        <p><a href="https://www.nytimes.com/games/wordle/index.html" target="_blank">Original wordle game</a></p>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
