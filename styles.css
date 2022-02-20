@@ -5,9 +5,17 @@
 }
 
 body {
+    background-color: #FAF9F6;
     margin: auto;
     margin-top: 50px;
     width: 60%;
+}
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
 
 .date{
@@ -21,3 +29,11 @@ body {
 .future-hint{
     text-align: center;
 }
+
+footer {
+    position:absolute;
+    text-align: center;
+    bottom:5%;
+    width:60%;
+    height:60px;   /* Height of the footer */
+ }
