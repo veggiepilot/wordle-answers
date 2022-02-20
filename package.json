@@ -1,0 +1,19 @@
+{
+  "name": "wordle-answers",
+  "version": "1.0.0",
+  "description": "An app that shows a hint to the popular wordle game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veggiepilot/wordle-answers.git"
+  },
+  "author": "Johannes Chitura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/veggiepilot/wordle-answers/issues"
+  },
+  "homepage": "https://github.com/veggiepilot/wordle-answers#readme"
+}
