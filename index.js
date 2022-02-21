@@ -6,8 +6,8 @@ const wordle             = document.querySelector("#wordle");
 const tomorrowHint       = document.querySelector("#tomorrow-hint");
 const wordleAnswer       = document.querySelector("#wordle-answer");
 const tomorrowHintReveal = document.querySelector("#tomorrow-hint-reveal");
-const todayCount         = 0;
-const tomorrowHintCount  = 1;
+const todayCount         = 1;
+const tomorrowHintCount  = 2;
 
 date.append(now);
 
@@ -44,12 +44,13 @@ const wordles = [
     },
     
 ];
+console.log(currentTime)
 
 todayWordleAnswer   = wordles[todayCount].wordle.answer;
 todayWordleHint     = wordles[todayCount].wordle.hint;
 tomorrowWordleHint  = wordles[tomorrowHintCount].wordle.hint;
 todayHint.innerHTML = todayWordleHint;
-if (currentTime === "00:00:00") {
+if (currentTime === "24:00:00") {
     todayCount++;
     tomorrowHintCount++;
 }
