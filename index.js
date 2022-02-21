@@ -44,7 +44,6 @@ const wordles = [
     },
     
 ];
-console.log(currentTime)
 
 todayWordleAnswer   = wordles[todayCount].wordle.answer;
 todayWordleHint     = wordles[todayCount].wordle.hint;
