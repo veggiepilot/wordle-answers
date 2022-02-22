@@ -6,8 +6,8 @@ const wordle             = document.querySelector("#wordle");
 const tomorrowHint       = document.querySelector("#tomorrow-hint");
 const wordleAnswer       = document.querySelector("#wordle-answer");
 const tomorrowHintReveal = document.querySelector("#tomorrow-hint-reveal");
-const todayCount         = 1;
-const tomorrowHintCount  = 2;
+const todayCount         = 2;
+const tomorrowHintCount  = 3;
 
 date.append(now);
 
