@@ -6,8 +6,8 @@ const wordle             = document.querySelector("#wordle");
 const tomorrowHint       = document.querySelector("#tomorrow-hint");
 const wordleAnswer       = document.querySelector("#wordle-answer");
 const tomorrowHintReveal = document.querySelector("#tomorrow-hint-reveal");
-const todayCount         = 2;
-const tomorrowHintCount  = 3;
+let todayCount           = 2;
+let tomorrowHintCount    = 3;
 
 date.append(now);
 
@@ -52,7 +52,7 @@ todayHint.innerHTML = todayWordleHint;
 if (currentTime === "24:00:00") {
     todayCount++;
     tomorrowHintCount++;
-}
+}    
 
 const displayWordle = function() {
     wordle.style.display = "none";
@@ -64,9 +64,7 @@ const displayTomorrowHint = function() {
     tomorrowHintReveal.innerText = tomorrowWordleHint.toUpperCase();
 };
 
-
 wordle.addEventListener('click', displayWordle);
-
 tomorrowHint.addEventListener('click', displayTomorrowHint);
 
 
