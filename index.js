@@ -42,6 +42,12 @@ const wordles = [
             hint: "English man"
         }
     },
+    {
+        wordle: {
+            answer: "vivid",
+            hint: "Bright 😎"
+        }
+    },
     
 ];
 
