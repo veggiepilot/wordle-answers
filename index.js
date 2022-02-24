@@ -6,20 +6,24 @@ const wordle             = document.querySelector("#wordle");
 const tomorrowHint       = document.querySelector("#tomorrow-hint");
 const wordleAnswer       = document.querySelector("#wordle-answer");
 const tomorrowHintReveal = document.querySelector("#tomorrow-hint-reveal");
-let todayCount           = 0;
-let tomorrowHintCount    = 1;
+let todayCount           = 1;
+let tomorrowHintCount    = 2;
 
 date.append(now);
 
-const observer = new MutationObserver(function(mutations) {
-    mutations.forEach(record => {
-        if(record.type === 'childList') {
-         todayCount++;
-         tomorrowHintCount++;
-        }
-    })
- });
- observer.observe(date, {attributes: true, childList: true});
+
+// const observer = new MutationObserver(function(mutations) {
+//     mutations.forEach(record => {
+//         if(record.type === 'childList') {
+//          todayCount++;
+//          tomorrowHintCount++;
+//         }
+//     })
+//  });
+//  observer.observe(date, {attributes: true, childList: true});
+//  date.innerHTML = "Tuesday, February 24th"
+
+//  console.log(todayCount)
 
 const wordles = [
     
@@ -48,10 +52,6 @@ todayWordleAnswer   = wordles[todayCount].wordle.answer;
 todayWordleHint     = wordles[todayCount].wordle.hint;
 tomorrowWordleHint  = wordles[tomorrowHintCount].wordle.hint;
 todayHint.innerHTML = todayWordleHint;
-
-
-
-console.log(todayCount, tomorrowHintCount )
 
 const displayWordle = () => {
     wordle.style.display = "none";
