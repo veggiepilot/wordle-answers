@@ -6,43 +6,34 @@ const wordle             = document.querySelector("#wordle");
 const tomorrowHint       = document.querySelector("#tomorrow-hint");
 const wordleAnswer       = document.querySelector("#wordle-answer");
 const tomorrowHintReveal = document.querySelector("#tomorrow-hint-reveal");
-let todayCount           = 1;
-let tomorrowHintCount    = 2;
+let todayCount           = 0;
+let tomorrowHintCount    = 1;
 
 date.append(now);
 
 
 // const observer = new MutationObserver(function(mutations) {
-//     mutations.forEach(record => {
-//         if(record.type === 'childList') {
-//          todayCount++;
-//          tomorrowHintCount++;
-//         }
-//     })
+//     console.log(mutations)
 //  });
 //  observer.observe(date, {attributes: true, childList: true});
-//  date.innerHTML = "Tuesday, February 24th"
+
+//  setTimeout(() => {
+//     date.innerHTML = "Tuesday, February 24th";
+//  }, 5000);
 
 //  console.log(todayCount)
 
 const wordles = [
-    
-    {
-        wordle: {
-            answer: "trove",
-            hint: "Collection of my treasures"
-        }
-    },
-    {
-        wordle: {
-            answer: "bloke",
-            hint: "English man"
-        }
-    },
     {
         wordle: {
             answer: "vivid",
             hint: "Bright 😎"
+        }
+    },
+    {
+        wordle: {
+            answer: "spill",
+            hint: "hmm... this liquid is escaping! 😱"
         }
     },
     
