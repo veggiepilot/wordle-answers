@@ -26,14 +26,14 @@ date.append(now);
 const wordles = [
     {
         wordle: {
-            answer: "spill",
-            hint: "hmm... this liquid is escaping! 😱"
+            answer: "chant",
+            hint: "sing those melodies to me..."
         }
     },
     {
         wordle: {
-            answer: "chant",
-            hint: "sing those melodies to me..."
+            answer: "choke",
+            hint: "my esophagus is clogged up"
         }
     },
     
