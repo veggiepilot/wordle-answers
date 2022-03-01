@@ -26,14 +26,14 @@ date.append(now);
 const wordles = [
     {
         wordle: {
-            answer: "chant",
-            hint: "sing those melodies to me..."
+            answer: "choke",
+            hint: "my esophagus is clogged up"
         }
     },
     {
         wordle: {
-            answer: "choke",
-            hint: "my esophagus is clogged up"
+            answer: "rupee",
+            hint: "Mexican peso, Indian ..?"
         }
     },
     
