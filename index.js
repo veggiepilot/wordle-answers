@@ -26,14 +26,14 @@ date.append(now);
 const wordles = [
     {
         wordle: {
-            answer: "ahead",
-            hint: "I'm leading the way...further forward 🤪"
+            answer: "cloth",
+            hint: "Of fabric"
         }
     },
     {
         wordle: {
-            answer: "brine",
-            hint: "Pickle juice"
+            answer: "hoard",
+            hint: "Accumulate"
         }
     },
     
