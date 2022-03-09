@@ -26,14 +26,14 @@ date.append(now);
 const wordles = [
     {
         wordle: {
-            answer: "sweet",
-            hint: "Pleasant taste of sugar or honey 🥲"
+            answer: "month",
+            hint: "Quadruple weeks"
         }
     },
     {
         wordle: {
-            answer: "month",
-            hint: "Quadruple weeks"
+            answer: "lapse",
+            hint: "I let my judgement go"
         }
     },
     
