@@ -34,7 +34,7 @@ const wordles = [
     {
         wordle: {
             answer: "watch",
-            hint: "Be on the lookout...👀
+            hint: "Be on the lookout...👀"
         }
     },
     
