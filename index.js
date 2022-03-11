@@ -24,17 +24,16 @@ date.append(now);
 //  console.log(todayCount)
 
 const wordles = [
-    
-    {
-        wordle: {
-            answer: "lapse",
-            hint: "I let my judgement go"
-        }
-    },
     {
         wordle: {
             answer: "watch",
             hint: "Be on the lookout...👀"
+        }
+    },
+    {
+        wordle: {
+            answer: "today",
+            hint: "It's not yesterday or tomorrow"
         }
     },
     
