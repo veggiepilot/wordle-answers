@@ -26,14 +26,14 @@ date.append(now);
 const wordles = [
     {
         wordle: {
-            answer: "watch",
-            hint: "Be on the lookout...👀"
+            answer: "smelt",
+            hint: "Perceiving odors...in the past"
         }
     },
     {
         wordle: {
-            answer: "today",
-            hint: "It's not yesterday or tomorrow"
+            answer: "tease",
+            hint: "Making fun of you in a playful manner"
         }
     },
     
@@ -56,5 +56,7 @@ const displayTomorrowHint = () => {
 
 wordle.addEventListener('click', displayWordle);
 tomorrowHint.addEventListener('click', displayTomorrowHint);
+
+
 
 
