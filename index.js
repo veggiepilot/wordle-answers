@@ -26,14 +26,14 @@ date.append(now);
 const wordles = [
     {
         wordle: {
-            answer: "tease",
-            hint: "Making fun of you in a playful manner"
+            answer: "movie",
+            hint: "Motion picture..."
         }
     },
     {
         wordle: {
-            answer: "cater",
-            hint: "Hook me up with food at my event"
+            answer: "saute",
+            hint: "Frequent method of cooking onions"
         }
     },
     
