@@ -26,14 +26,14 @@ date.append(now);
 const wordles = [
     {
         wordle: {
-            answer: "nymph",
-            hint: "a maiden"
+            answer: "found",
+            hint: "discovered"
         }
     },
     {
         wordle: {
-            answer: "found",
-            hint: "discovered"
+            answer: "shall",
+            hint: "I intend to..."
         }
     },
     
